@@ -59,7 +59,7 @@ p.body-text strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
 .nav-act:last-child{border-right:none}
 .nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
 .nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
-.nav-act.home:hover{background:#FDB515;color:#003262}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
 .nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
 .nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:flex-start}
 .nav-bottom-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
@@ -193,11 +193,12 @@ p.body-text strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
 <div class="nav-wrap">
 <nav class="nav-top">
 <div class="nav-top-inner">
-<a href="https://bruin-watch.github.io/" class="nav-act home">&#9670; BRUIN WATCH</a>
+<span class="nav-act home disabled" title="Private — Available upon request" aria-disabled="true">&#9670; BRUIN WATCH</span>
 <a href="https://bruin-watch.github.io/behave-like-heroes/" class="nav-act">Act I</a>
 <span class="nav-act disabled" title="Private — Available upon request" aria-disabled="true">Act II</span>
 <span class="nav-act disabled" title="Private — Available upon request" aria-disabled="true">Act III</span>
 <a href="index.html" class="nav-act current-act">Epilogue</a>
+<span class="nav-act home-right" aria-hidden="true">&#9670;</span>
 </div>
 </nav>
 <nav class="nav-bottom">
@@ -1011,11 +1012,12 @@ Founder and First President, Federated University Police Officers&rsquo; Associa
 <div class="nav-wrap" style="position:static;box-shadow:none">
 <nav class="nav-top" style="box-shadow:none">
 <div class="nav-top-inner">
-<a href="https://bruin-watch.github.io/" class="nav-act home">&#9670; BRUIN WATCH</a>
+<span class="nav-act home disabled" title="Private — Available upon request" aria-disabled="true">&#9670; BRUIN WATCH</span>
 <a href="https://bruin-watch.github.io/behave-like-heroes/" class="nav-act">Act I</a>
 <span class="nav-act disabled" title="Private — Available upon request" aria-disabled="true">Act II</span>
 <span class="nav-act disabled" title="Private — Available upon request" aria-disabled="true">Act III</span>
 <a href="index.html" class="nav-act current-act">Epilogue</a>
+<span class="nav-act home-right" aria-hidden="true">&#9670;</span>
 </div>
 </nav>
 <nav class="nav-bottom">
